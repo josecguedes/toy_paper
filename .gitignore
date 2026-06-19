@@ -1,0 +1,22 @@
+# Large / licensed data file — download via data/download.sh
+data/results.csv
+
+# Generated binary outputs
+descriptive_statistics.docx
+
+# Editor config
+.obsidian/
+
+# macOS noise
+.DS_Store
+paper/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# R
+.Rhistory
+.RData
