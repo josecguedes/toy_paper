@@ -1,0 +1,5 @@
+model,variable,coef,se,pval,ci_lo,ci_hi,n,r2
+M1: bivariate,uses_ai,0.1065,0.0323,0.001,0.0432,0.1698,24203,0.0004
+M2: + experience,uses_ai,0.1719,0.0323,0.0,0.1086,0.2353,24203,0.013
+M3: + role FE (binary),uses_ai,0.1546,0.0326,0.0,0.0906,0.2186,24203,0.0202
+M4: + role FE (ordinal),ai_ordinal,0.0611,0.0089,0.0,0.0437,0.0786,24203,0.0212
